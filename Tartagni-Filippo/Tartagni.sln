@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tartagni-Filippo", "WarlordsCS\Tartagni-Filippo.csproj", "{68B07A3E-63D3-47F0-8FD8-798DE56263C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test-Tartagni", "Test-Tartagni\Test-Tartagni.csproj", "{98854134-D4C7-43F7-A4CC-E051C516AC9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68B07A3E-63D3-47F0-8FD8-798DE56263C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B07A3E-63D3-47F0-8FD8-798DE56263C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B07A3E-63D3-47F0-8FD8-798DE56263C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B07A3E-63D3-47F0-8FD8-798DE56263C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98854134-D4C7-43F7-A4CC-E051C516AC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98854134-D4C7-43F7-A4CC-E051C516AC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98854134-D4C7-43F7-A4CC-E051C516AC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98854134-D4C7-43F7-A4CC-E051C516AC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {310C6A54-586B-4D86-9EBD-A80ADC0993AF}
+	EndGlobalSection
+EndGlobal
