@@ -1,1 +1,1 @@
-# oop20-Warlords.cs
+Task C# for Warlords project.
