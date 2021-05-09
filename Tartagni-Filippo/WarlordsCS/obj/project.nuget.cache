@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "97KGdc2CV+B9EY9aY1vodSKz52Hx8hwZnnaUUYxWpoEBJpppSyR4cCQ8tJPmZrykKYmEg5g4Kjw+0CuCzJmUpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TARTAGNI\\OneDrive - Alma Mater Studiorum Università di Bologna\\WarlordsCS\\WarlordsCS\\Tartagni-Filippo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TARTAGNI\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

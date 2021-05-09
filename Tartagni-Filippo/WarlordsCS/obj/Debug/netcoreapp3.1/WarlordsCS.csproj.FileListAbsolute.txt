@@ -1,0 +1,30 @@
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.exe
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.deps.json
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.runtimeconfig.json
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.runtimeconfig.dev.json
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.dll
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.pdb
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.csprojAssemblyReference.cache
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.AssemblyInfoInputs.cache
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.AssemblyInfo.cs
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.csproj.CoreCompileInputs.cache
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.dll
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.pdb
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.genruntimeconfig.cache
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\TRTFPP\source\repos\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.csproj.CopyComplete
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.exe
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.deps.json
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.runtimeconfig.json
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.runtimeconfig.dev.json
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.dll
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\WarlordsCS.pdb
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.csprojAssemblyReference.cache
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.AssemblyInfoInputs.cache
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.AssemblyInfo.cs
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.csproj.CoreCompileInputs.cache
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.csproj.CopyComplete
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.dll
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.pdb
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\WarlordsCS.genruntimeconfig.cache

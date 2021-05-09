@@ -1,0 +1,15 @@
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\Tartagni-Filippo.exe
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\Tartagni-Filippo.deps.json
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\Tartagni-Filippo.runtimeconfig.json
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\Tartagni-Filippo.runtimeconfig.dev.json
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\Tartagni-Filippo.dll
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\Tartagni-Filippo.pdb
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\Tartagni-Filippo.csprojAssemblyReference.cache
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\Tartagni-Filippo.AssemblyInfoInputs.cache
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\Tartagni-Filippo.AssemblyInfo.cs
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\Tartagni-Filippo.csproj.CoreCompileInputs.cache
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\Tartagni-Filippo.csproj.CopyComplete
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\Tartagni-Filippo.dll
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\Tartagni-Filippo.pdb
+C:\Users\TARTAGNI\OneDrive - Alma Mater Studiorum Università di Bologna\WarlordsCS\WarlordsCS\obj\Debug\netcoreapp3.1\Tartagni-Filippo.genruntimeconfig.cache
