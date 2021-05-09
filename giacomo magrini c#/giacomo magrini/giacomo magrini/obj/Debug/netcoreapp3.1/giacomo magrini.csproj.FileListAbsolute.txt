@@ -1,0 +1,19 @@
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\bin\Debug\netcoreapp3.1\giacomo magrini.exe
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\bin\Debug\netcoreapp3.1\giacomo magrini.deps.json
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\bin\Debug\netcoreapp3.1\giacomo magrini.runtimeconfig.json
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\bin\Debug\netcoreapp3.1\giacomo magrini.runtimeconfig.dev.json
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\bin\Debug\netcoreapp3.1\giacomo magrini.dll
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\bin\Debug\netcoreapp3.1\giacomo magrini.pdb
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo magrini.csprojAssemblyReference.cache
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo_magrini.Form1.resources
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo magrini.csproj.GenerateResource.cache
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo magrini.AssemblyInfoInputs.cache
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo magrini.AssemblyInfo.cs
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo magrini.csproj.CoreCompileInputs.cache
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo magrini.dll
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo magrini.pdb
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo magrini.genruntimeconfig.cache
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo_magrini.Properties.Resources.resources
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo_magrini.Form2.resources
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo_magrini.Form4.resources
+C:\Users\GiackX3Z\Desktop\progetti\C#\giacomo magrini\giacomo magrini\obj\Debug\netcoreapp3.1\giacomo_magrini.Form3.resources
