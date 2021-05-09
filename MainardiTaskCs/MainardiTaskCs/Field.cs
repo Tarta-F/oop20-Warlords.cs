@@ -4,12 +4,12 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 
-namespace MainardiTaskCs
+namespace Model
 {
     /// <summary>
     /// Basic implementation of <see cref="ILane"/>
     /// </summary>
-    class Field : IField
+    public class Field : IField
     {
         private readonly IList<ILane> lanes;
         private readonly int cellsNumber;

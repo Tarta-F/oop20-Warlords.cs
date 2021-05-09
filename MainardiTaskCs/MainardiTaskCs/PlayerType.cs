@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MainardiTaskCs
+namespace Model
 {
-    enum PlayerType
+    public enum PlayerType
     {
         PLAYER1, PLAYER2
     }

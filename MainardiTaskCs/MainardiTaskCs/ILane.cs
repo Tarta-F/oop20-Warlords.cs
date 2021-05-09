@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MainardiTaskCs
+namespace Model
 {
 
     /// <summary>
     /// Route where units walk and fight to reach the opponent player.
     /// </summary>
-    interface ILane
+    public interface ILane
     {
 
         /// <summary>
@@ -46,14 +46,5 @@ namespace MainardiTaskCs
         ///  </summary>
         void ResetScore();
 
-    }
-
-    interface IUnit
-    {
-        public int GetRange() => 0;
-        public int GetStep() => 0;
-        public bool IsAlive() => true;
-        public PlayerType GetPlayer() => PlayerType.PLAYER1;
-        public void Attack(IUnit target) => Console.WriteLine();
     }
 }

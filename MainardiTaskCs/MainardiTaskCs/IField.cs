@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MainardiTaskCs
+namespace Model
 {
     /// <summary>
     /// A collection of lanes that tracks players scores.
     /// </summary>
-    interface IField
+    public interface IField
     {
         /// <summary>
         /// Gets the number of lanes.

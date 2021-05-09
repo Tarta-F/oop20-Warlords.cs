@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MainardiTaskCs
+namespace Model
 {
-    class Lane : ILane
+    public class Lane : ILane
     {
         private readonly int lenght;
         private readonly IDictionary<IUnit, LimitMultiCounter> units;
@@ -46,10 +47,10 @@ namespace MainardiTaskCs
         /// <Nullable>enabled</Nullable>
         #nullable enable
         private IUnit? SearchTarget(IUnit unit) => Enumerable
-            .Range(this.GetUnits()[unit] - (unit.GetPlayer().Equals(PlayerType.PLAYER1) ? 0 : unit.GetRange()), unit.GetRange() + 1)
+            .Range(this.GetUnits()[unit] - (unit.Player.Equals(PlayerType.PLAYER1) ? 0 : unit.Range), unit.Range + 1)
             .Where(IsLegalPosition)
             .SelectMany(p => this[p].AsEnumerable())
-            .Where(u => !u.GetPlayer().Equals(unit.GetPlayer()))
+            .Where(u => !u.Player.Equals(unit.Player))
             .FirstOrDefault(null);
         #nullable disable
 
@@ -57,7 +58,7 @@ namespace MainardiTaskCs
         /// Move the given unit of the quantity of its step.
         /// </summary>
         /// <param name="unit">the unit to move.</param>
-        private void Move(IUnit unit) => this.units[unit].MultiIncrement(unit.GetStep());
+        private void Move(IUnit unit) => this.units[unit].MultiIncrement(unit.Step);
 
         /// <inheritdoc cref="ILane.this"/>
         public ISet<IUnit> this[int position]
@@ -88,7 +89,7 @@ namespace MainardiTaskCs
         public IDictionary<IUnit, int> GetUnits() => this.units.AsEnumerable()
             .Where(e => e.Key.IsAlive())
             .Select(e => KeyValuePair.Create(e.Key, e.Value.Value))
-            .Select(p => p.Key.GetPlayer().Equals(PlayerType.PLAYER1) ? p : KeyValuePair.Create(p.Key, this.Lenght - p.Value - 1))
+            .Select(p => p.Key.Player.Equals(PlayerType.PLAYER1) ? p : KeyValuePair.Create(p.Key, this.Lenght - p.Value - 1))
             .ToDictionary(x => x.Key, y => y.Value);
 
         /// <inheritdoc cref="ILane.ResetScore"/>
@@ -120,7 +121,7 @@ namespace MainardiTaskCs
                 #nullable disable
                 } else if (unit.Value.IsOver())
                 {
-                    this.Score(unit.Key.GetPlayer());
+                    this.Score(unit.Key.Player);
                     this.units.Remove(unit);
                 } else
                 {
@@ -130,30 +131,35 @@ namespace MainardiTaskCs
         }
     }
 
-    class LimitMultiCounter : Counter
+    public class LimitMultiCounter : Counter
     {
         private readonly int limit;
-        public LimitMultiCounter(int limit)
+        public LimitMultiCounter(int limit) : base()
         {
             this.limit = limit;
         }
-         public void MultiIncrement(int value)
+
+        internal bool IsOver() => base.Value >= this.limit;
+
+        public override void Increment()
         {
-            for (int i = 0; i < value; i++)
+            if (!this.IsOver())
             {
                 base.Increment();
             }
         }
 
-        internal bool IsOver() => base.Value >= this.limit;
-    }
-    
-    class Unit : IUnit
-    {
+        public void MultiIncrement(int value)
+        {
+            for (int i = 0; i < value; i++)
+            {
+                this.Increment();
+            }
+        }
 
     }
 
-    class Counter
+    public class Counter
     {
         private int value;
 
@@ -163,7 +169,7 @@ namespace MainardiTaskCs
         }
 
         public int Value { get => this.value; }
-        public void Increment() => this.value++;
+        public virtual void Increment() => this.value++;
         public void Reset() => this.value = 0;
     }
 }
