@@ -58,10 +58,10 @@ namespace Model
             .Aggregate((s1, s2) => s1 + s2);
 
         /// <inheritdoc cref="IField.GetUnits"/>
-        public IDictionary<IUnit, KeyValuePair<int, int>> GetUnits() => this.lanes.AsEnumerable()
+        public IDictionary<IUnit, Tuple<int, int>> GetUnits() => this.lanes.AsEnumerable()
             .SelectMany(l => l.GetUnits().AsEnumerable()
-                .Select(e => KeyValuePair.Create(e.Key, KeyValuePair.Create(e.Value, this.lanes.IndexOf(l)))))
-            .ToDictionary(e => e.Key, e => e.Value);
+                .Select(e => Tuple.Create(e.Key, Tuple.Create(e.Value, this.lanes.IndexOf(l)))))
+            .ToDictionary(e => e.Item1, e => e.Item2);
 
         /// <inheritdoc cref="IField.ResetScore"/>
         public void ResetScore()

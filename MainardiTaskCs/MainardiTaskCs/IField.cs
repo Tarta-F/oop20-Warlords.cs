@@ -32,8 +32,8 @@ namespace Model
         /// <returns>the numbers of units that have reached the enemy base.</returns>
         int GetScore(PlayerType player);
 
-        /// <returns>a map of the units with theri corresponding position, rappresented by a pair.</returns>
-        IDictionary<IUnit, KeyValuePair<int, int>> GetUnits();
+        /// <returns>a map of the units with theri corresponding position, rappresented by a <see cref="Tuple"/>.</returns>
+        IDictionary<IUnit, Tuple<int, int>> GetUnits();
 
         /// <summary>Update all the lanes.</summary>
         void Update();

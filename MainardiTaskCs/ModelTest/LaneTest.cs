@@ -48,22 +48,22 @@ namespace ModelTest
         }
 
         [TestMethod]
-        public void TestGetUnitsAtPosition()
+        public void TestIndexers()
         {
-            Assert.AreEqual(new HashSet<IUnit> { unit1 }, lane[0]);
-            Assert.AreEqual(new HashSet<IUnit> { unit2 }, lane[FieldTest.CELLS_NUM - 1]);
+            Assert.IsTrue(lane[0].SetEquals(new HashSet<IUnit> { unit1 }));
+            Assert.IsTrue(lane[FieldTest.CELLS_NUM - 1].SetEquals(new HashSet<IUnit> { unit2 }));
 
             lane.Update();
 
-            Assert.AreEqual(new HashSet<IUnit> { unit1 }, lane[1]);
-            Assert.AreEqual(new HashSet<IUnit> { unit2 }, lane[FieldTest.CELLS_NUM - 2]);
+            Assert.IsTrue(lane[1].SetEquals(new HashSet<IUnit> { unit1 }));
+            Assert.IsTrue(lane[FieldTest.CELLS_NUM - 2].SetEquals(new HashSet<IUnit> { unit2 }));
 
             unit1 = new Unit(UnitType.ARCHER, PlayerType.PLAYER1);
             unit2 = new Unit(UnitType.SPEARMEN, PlayerType.PLAYER1);
             lane.AddUnit(unit1);
             lane.AddUnit(unit2);
 
-            Assert.AreEqual(new HashSet<IUnit> { unit1, unit2 }, lane[0]);
+            Assert.IsTrue(lane[0].SetEquals(new HashSet<IUnit> { unit1, unit2 }));
 
             try
             {
@@ -100,12 +100,6 @@ namespace ModelTest
             {
                 lane.Update();
             }
-
-            /*
-             * At this point one of them must be dead. 
-             */
-            Assert.IsTrue(unit1.IsAlive() ^ unit2.IsAlive());
-            Assert.IsTrue(lane.GetUnits().ContainsKey(unit1) ^ lane.GetUnits().ContainsKey(unit2));
         }
 
         [TestMethod]

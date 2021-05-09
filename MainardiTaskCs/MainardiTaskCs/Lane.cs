@@ -45,13 +45,16 @@ namespace Model
         /// <param name="unit">the unit for which to search the target.</param>
         /// <returns>the unit target if there's any</returns>
         /// <Nullable>enabled</Nullable>
-        #nullable enable
-        private IUnit? SearchTarget(IUnit unit) => Enumerable
+#nullable enable
+        private IUnit? SearchTarget(IUnit unit)
+        {
+            var targets = Enumerable
             .Range(this.GetUnits()[unit] - (unit.Player.Equals(PlayerType.PLAYER1) ? 0 : unit.Range), unit.Range + 1)
             .Where(IsLegalPosition)
             .SelectMany(p => this[p].AsEnumerable())
-            .Where(u => !u.Player.Equals(unit.Player))
-            .FirstOrDefault(null);
+            .Where(u => !u.Player.Equals(unit.Player));
+            return targets.Count() == 0 ? null : targets.First();
+        }
         #nullable disable
 
         /// <summary>
@@ -88,9 +91,9 @@ namespace Model
         /// <inheritdoc cref="ILane.GetUnits"/>
         public IDictionary<IUnit, int> GetUnits() => this.units.AsEnumerable()
             .Where(e => e.Key.IsAlive())
-            .Select(e => KeyValuePair.Create(e.Key, e.Value.Value))
-            .Select(p => p.Key.Player.Equals(PlayerType.PLAYER1) ? p : KeyValuePair.Create(p.Key, this.Lenght - p.Value - 1))
-            .ToDictionary(x => x.Key, y => y.Value);
+            .Select(e => Tuple.Create(e.Key, e.Value.Value))
+            .Select(p => p.Item1.Player.Equals(PlayerType.PLAYER1) ? p : Tuple.Create(p.Item1, this.Lenght - p.Item2 - 1))
+            .ToDictionary(p => p.Item1, p => p.Item2);
 
         /// <inheritdoc cref="ILane.ResetScore"/>
         public void ResetScore()
@@ -104,11 +107,12 @@ namespace Model
         /// </summary>
         public virtual void Update()
         {
-            //IEnumerator<KeyValuePair<IUnit, LimitMultiCounter>> unitsIterator = this.units.GetEnumerator();
-            //KeyValuePair<IUnit, LimitMultiCounter> unit;
+            int prova = 0;
+            //IEnumerator<Tuple<IUnit, LimitMultiCounter>> unitsIterator = this.units.GetEnumerator();
+            //Tuple<IUnit, LimitMultiCounter> unit;
             foreach (var unit in units)
             {
-                if (unit.Key.IsAlive())
+                if (!unit.Key.IsAlive())
                 {
                     units.Remove(unit);
                     continue;

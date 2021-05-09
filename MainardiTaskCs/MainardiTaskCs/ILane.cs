@@ -10,7 +10,6 @@ namespace Model
     /// </summary>
     public interface ILane
     {
-
         /// <summary>
         /// Gets the lenght of the lane.
         /// </summary>

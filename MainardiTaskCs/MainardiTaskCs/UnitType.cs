@@ -27,40 +27,35 @@ namespace Model
 
     public class UnitStat
     {
-        private static IDictionary<UnitType, UnitStatus> status;
-
-        private UnitStat()
+        private static IDictionary<UnitType, UnitStatus> status = new Dictionary<UnitType, UnitStatus>()
         {
-            status = new Dictionary<UnitType, UnitStatus>()
+            [UnitType.SWORDSMEN] = new UnitStatus()
             {
-                [UnitType.SWORDSMEN] = new UnitStatus()
-                {
-                    WaitingTime = 0,
-                    Hp = 0,
-                    Step = 0,
-                    Range = 0,
-                    Damage = 0
-                }
+                WaitingTime = 2000,
+                Hp = 14,
+                Step = 1,
+                Range = 1,
+                Damage = 4
+            }
                 ,
-                [UnitType.SPEARMEN] = new UnitStatus()
-                {
-                    WaitingTime = 0,
-                    Hp = 0,
-                    Step = 0,
-                    Range = 0,
-                    Damage = 0
-                }
+            [UnitType.SPEARMEN] = new UnitStatus()
+            {
+                WaitingTime = 2000,
+                Hp = 23,
+                Step = 1,
+                Range = 2,
+                Damage = 2
+            }
                 ,
-                [UnitType.ARCHER] = new UnitStatus()
-                {
-                    WaitingTime = 0,
-                    Hp = 0,
-                    Step = 0,
-                    Range = 0,
-                    Damage = 0
-                }
-            };
-        }
+            [UnitType.ARCHER] = new UnitStatus()
+            {
+                WaitingTime = 3000,
+                Hp = 8,
+                Step = 1,
+                Range = 5,
+                Damage = 2
+            }
+        };
 
         public static int GetWaitingTime(UnitType type) => status[type].WaitingTime;
         public static int GetHp(UnitType type) => status[type].Hp;
